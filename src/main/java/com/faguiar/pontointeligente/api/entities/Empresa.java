@@ -3,7 +3,7 @@ package com.faguiar.pontointeligente.api.entities;
 
 import java.io.Serializable;
 
-
+import java.util.*;
 import java.util.Date;
 
 
@@ -19,7 +19,7 @@ public class Empresa implements Serializable {
 	private String cnpj;
 	private Date dataCriacao;
 	private Date dataAtualizacao;
-	//private List<Funcionario> funcionarios;
+	private List<Funcionario> funcionarios;
 	
 	 
 
